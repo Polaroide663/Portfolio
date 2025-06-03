@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portifolio</title>
+    <link rel="stylesheet" href="estilos/estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+            <div class="container-fluid position-relative">
+
+                <a class="navbar-brand ms-lg-3" href="#">Guilherme Maia</a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+                    <div class="navbar-nav d-flex align-items-center gap-3">
+                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                        <a class="nav-link" href="#sobre">Sobre mim</a>
+                        <a class="nav-link" href="#habi">Habilidades</a>
+                        <a class="nav-link" href="#quali">Qualificações</a>
+                        <a class="nav-link" href="#serv">Serviços</a>
+                        <a class="nav-link" href="#port">Portfólio</a>
+                        <a class="nav-link" href="#contato">Contatos</a>
+                    </div>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+
+
+
+
+    <section id="home" class="home-section">
+        <h1 class="text-center">Olá, seja bem vindo ao meu portfólio</h1>
+
+        <div
+            class="home-content container d-flex flex-column flex-md-row align-items-center justify-content-center mt-4">
+
+            <div class="home-text me-md-4">
+                <p>
+                    Meu nome é Guilherme. Aqui você encontrará uma seleção dos meus projetos pessoais, desenvolvidos com
+                    dedicação, cuidado e atenção aos detalhes.
+                    Espero que cada um deles transmita a qualidade do meu trabalho e o valor do meu aprendizado.
+                </p>
+            </div>
+
+            <div class="home-image mt-4 mt-md-0">
+                <img src="imagens/musashi.png" alt="Imagem ilustrativa" class="img-fluid rounded shadow" />
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <section id="sobre">
+        <h1 class="titulo-centralizado">Sobre Mim</h1>
+        <div class="sobre-layout">
+            <div class="sobre-imagem">
+                <img src="imagens/eu.jpg" alt="Imagem de Guilherme" />
+
+                <div class="mt-3">
+                    <a href="imagens/Curriculo_Guilherme.pdf" download="Curriculo Guilherme">
+                        <i class="bi bi-download me-2"></i> Baixar Currículo PDF
+                    </a>
+                </div>
+            </div>
+
+            <div class="sobre-texto">
+                <p>
+                    Olá! Meu nome é <strong>Guilherme</strong>, tenho 17 anos e atualmente estou cursando o
+                    <strong>técnico em Desenvolvimento de Sistemas</strong> no <strong>SENAI</strong>.
+                </p>
+                <p>
+                    Sou apaixonado por tecnologia e estou sempre em busca de novos aprendizados e desafios que me ajudem
+                    a evoluir como desenvolvedor. Tenho me dedicado ao estudo de linguagens de programação,
+                    desenvolvimento web e boas práticas de codificação.
+                </p>
+                <p>
+                    Meu foco é construir soluções úteis, funcionais e bem estruturadas. Este portfólio reúne alguns dos
+                    meus projetos pessoais, onde aplico na prática tudo o que venho aprendendo, sempre buscando melhorar
+                    minhas habilidades.
+                </p>
+                <p>
+                    Estou motivado a seguir crescendo na área e contribuir com soluções criativas no mundo da
+                    tecnologia.
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="habi">
+        <div class="text-center">
+            <h1>Minhas Habilidades</h1>
+            <p>Nível técnico</p>
+            <i class="bi bi-code-slash" style="font-size: 30px;"></i> <i class="bi bi-database"
+                style="font-size: 30px;"></i>
+        </div>
+        <div class="accordion" id="accordionExample">
+
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                        Analista de Informações
+                    </button>
+                </h2>
+            </div>
+
+            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <h5>Conhecimento em SQL</h5>
+                    <p>Desenvolvo consultas complexas para extração eficiente de dados, otimizo bancos relacionais e
+                        garanto integridade e performance.</p>
+
+                    <h5>Modelagem de Sistemas</h5>
+                    <p>Crio diagramas entidade-relacionamento claros, aplico normalização para evitar redundância e
+                        planejo arquiteturas robustas para sistemas escaláveis.</p>
+                </div>
+            </div>
+
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Desenvolvedor Web
+                    </button>
+                </h2>
+            </div>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <h5>JavaScript</h5>
+                    <p>Implemento interatividade avançada, manipulo o DOM eficientemente e consumo APIs REST para
+                        criar experiências dinâmicas.</p>
+
+                    <h5>CSS</h5>
+                    <p>Desenvolvo layouts responsivos com Flexbox e Grid, aplico estilos modernos e crio animações
+                        para melhorar a usabilidade.</p>
+
+                    <h5>HTML</h5>
+                    <p>Estruturo páginas com tags semânticas, garanto acessibilidade e otimizo para SEO e
+                        performance.</p>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Uma estatística
+                    </button>
+                </h2>
+
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <div class="mb-3">
+                            <label class="form-label fw-bold">CSS</label>
+                            <div class="progress" role="progressbar" aria-valuenow="30" aria-valuemin="0"
+                                aria-valuemax="100">
+                                <div class="progress-bar" style="width: 75%">75%</div>
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label fw-bold">JavaScript</label>
+                            <div class="progress" role="progressbar" aria-valuenow="40" aria-valuemin="0"
+                                aria-valuemax="100">
+                                <div class="progress-bar bg-success" style="width: 80%">80%</div>
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label fw-bold">HTML</label>
+                            <div class="progress" role="progressbar" aria-valuenow="55" aria-valuemin="0"
+                                aria-valuemax="100">
+                                <div class="progress-bar bg-info" style="width: 90%">90%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+
+    <section id="quali">
+        <h2 class="titulo-centralizado">Minhas Qualificações</h2>
+        <div class="icone-centralizado">
+            <i class="bi bi-mortarboard" style="font-size: 30px;"></i>
+        </div>
+
+        <ul class="qualificacoes-lista">
+            <li>
+                <strong>Técnico em Desenvolvimento de Sistemas</strong> - SESI/SENAI<br>
+                <small>(Cursando, previsão de conclusão: 2025)</small>
+            </li>
+            <li>
+                <strong>Curso de Inglês</strong> - CCAA<br>
+                <small>(2 anos concluídos pré - intermediario)</small>
+            </li>
+        </ul>
+    </section>
+
+
+    <section id="serv">
+        <h2 class="titulo-centralizado">Meus Serviços</h2>
+
+        <div class="caixas-container">
+            <div class="caixa-analista">
+                <h3>Analista de Informações</h3>
+                <p>
+                    Analiso sistemas de dados aplicando técnicas estatísticas e lógicas. Realizo visualização de
+                    gráficos, tabelas e elaboro relatórios e dashboards simples e eficazes.
+                </p>
+            </div>
+
+            <div class="caixa-funcao">
+                <h3>Desenvolvedor Web</h3>
+                <p>
+                    Crio sites simples e funcionais usando HTML, CSS e JavaScript. Foco em design limpo,
+                    responsivo e boa experiência para o usuário.
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="port" class="container my-5">
+        <h2 class="mb-4">Meus Projetos</h2>
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+                        aria-label="Slide 5"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5"
+                        aria-label="Slide 6"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6"
+                        aria-label="Slide 7"></button>
+            </div>
+            <div id="carouselProjetos" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <!-- Projeto 1 -->
+                    <div class="carousel-item active">
+                        <div class="row align-items-center">
+                            <div class="col-md-6">
+                                <img src="imagens/android.png" class="d-block w-100 rounded" alt="Projeto Android">
+                            </div>
+                            <div class="col-md-6">
+                                <h5>Projeto Android</h5>
+                                <p>Simulação de site institucional para Android. Feito com HTML, CSS e JavaScript,
+                                    com
+                                    foco
+                                    em responsividade e design limpo.</p>
+                                <a href="https://polaroide663.github.io/Projeto-Android/index.html" target="_blank"
+                                    class="botao-projeto">
+                                    Acessar Projeto
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Projeto 2 -->
+                    <div class="carousel-item">
+                        <div class="row align-items-center">
+                            <div class="col-md-6">
+                                <img src="imagens/calculadora.png" class="d-block w-100 rounded" alt="Calculadora">
+                            </div>
+                            <div class="col-md-6">
+                                <h5>Calculadora Web</h5>
+                                <p>Calculadora funcional desenvolvida em JavaScript puro. Interface simples, limpa e
+                                    totalmente responsiva.</p>
+                                <a href="https://polaroide663.github.io/Calculadora/" target="_blank"
+                                    class="botao-projeto">Acessar Projeto</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Projeto 3 -->
+                    <div class="carousel-item">
+                        <div class="row align-items-center">
+                            <div class="col-md-6">
+                                <img src="imagens/calculo.png" class="d-block w-100 rounded" alt="Sistema de Cálculo">
+                            </div>
+                            <div class="col-md-6">
+                                <h5>Sistema de Cálculo</h5>
+                                <p>Ferramenta de cálculo com entrada de dados, lógica matemática e resultado
+                                    dinâmico
+                                    via
+                                    JavaScript.</p>
+                                <a href="https://polaroide663.github.io/CaculoTrabalhista/" target="_blank"
+                                    class="botao-projeto">Acessar Projeto</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Projeto 4 -->
+                    <div class="carousel-item">
+                        <div class="row align-items-center">
+                            <div class="col-md-6">
+                                <img src="imagens/google.png" class="d-block w-100 rounded"
+                                    alt="Clonagem de Página Google">
+                            </div>
+                            <div class="col-md-6">
+                                <h5>Clonagem do Google</h5>
+                                <p>Projeto de treino em HTML e CSS para replicar a interface visual da página
+                                    inicial do
+                                    Google.</p>
+                                <a href="https://polaroide663.github.io/Google/" target="_blank"
+                                    class="botao-projeto">Acessar Projeto</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Projeto 5 -->
+                    <div class="carousel-item">
+                        <div class="row align-items-center">
+                            <div class="col-md-6">
+                                <img src="imagens/imc.png" class="d-block w-100 rounded" alt="Calculadora IMC">
+                            </div>
+                            <div class="col-md-6">
+                                <h5>Calculadora de IMC</h5>
+                                <p>Aplicação para calcular o Índice de Massa Corporal (IMC), com validação de dados
+                                    e
+                                    feedback ao usuário.</p>
+                                <a href="https://polaroide663.github.io/imc/" target="_blank"
+                                    class="botao-projeto">Acessar Projeto</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Projeto 6 -->
+                    <div class="carousel-item">
+                        <div class="row align-items-center">
+                            <div class="col-md-6">
+                                <img src="imagens/login.png" class="d-block w-100 rounded" alt="Tela de Login">
+                            </div>
+                            <div class="col-md-6">
+                                <h5>Tela de Login</h5>
+                                <p>Interface de login com campos de entrada e validação básica. Design responsivo e
+                                    focado
+                                    em UX.</p>
+                                <a href="https://polaroide663.github.io/Login/" target="_blank"
+                                    class="botao-projeto">Acessar Projeto</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Projeto 7 -->
+                    <div class="carousel-item">
+                        <div class="row align-items-center">
+                            <div class="col-md-6">
+                                <img src="imagens/pedágio.png" class="d-block w-100 rounded" alt="Simulador de Pedágio">
+                            </div>
+                            <div class="col-md-6">
+                                <h5>Simulador de Pedágio</h5>
+                                <p>Sistema que simula o cálculo de tarifas de pedágio com base em categorias de
+                                    veículos
+                                    e
+                                    distância.</p>
+                                <a href="https://polaroide663.github.io/Pedagio/" target="_blank"
+                                    class="botao-projeto">Acessar Projeto</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Controles -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselProjetos"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselProjetos"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </div>
+    </section>
+    <section id="contato">
+        <h1 class="contato-titulo">Contate-me</h1>
+
+        <div class="contato-info">
+            <div class="contato-item">
+                <div class="contato-titulo-icone">
+                    <i class="bi bi-telephone"></i>
+                    <h3>Telefone</h3>
+                </div>
+                <p>(+79)998122023</p>
+            </div>
+
+            <div class="contato-item">
+                <div class="contato-titulo-icone">
+                    <i class="bi bi-envelope-at"></i>
+                    <h3>E-mail</h3>
+                </div>
+                <p>guilhermedev95@gmail.com</p>
+            </div>
+
+            <div class="contato-item">
+                <div class="contato-titulo-icone">
+                    <i class="bi bi-geo-alt"></i>
+                    <h3>Localização</h3>
+                </div>
+                <p>Sergipe, Aracaju</p>
+            </div>
+        </div>
+
+        <form id="contatoForm" class="formulario-contato">
+            <div class="form-group">
+                <input type="text" id="nome" placeholder="Seu nome" required>
+            </div>
+            <div class="form-group">
+                <input type="email" id="email" placeholder="Seu e-mail" required>
+            </div>
+            <div class="form-group">
+                <textarea id="mensagem" placeholder="Sua mensagem" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+
+        <div id="confirmacao" class="alert alert-success d-none mt-3"></div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("YvWFau14e_RZBZYFj"); // Substitua pelo seu PUBLIC KEY
+        })();
+
+        document.getElementById("contatoForm").addEventListener("submit", function (event) {
+            event.preventDefault();
+
+            var params = {
+                from_name: document.querySelector("#nome").value,
+                reply_to: document.querySelector("#email").value,
+                message: document.querySelector("#mensagem").value,
+            };
+
+            emailjs.send("service_l67hceo", "template_poduymg", params)
+                .then(function (response) {
+                    alert("Seu e-mail foi enviado com sucesso!");
+                }, function (error) {
+                    alert("Erro ao enviar: " + JSON.stringify(error));
+                });
+        });
+    </script>
+
+    </script>
+
+    <div class="icones-flutuantes">
+        <a href="https://wa.me/5579998122023" class="icone-flutuante whatsapp" target="_blank"
+            title="Me chame no WhatsApp">
+            <i class="bi bi-whatsapp"></i>
+        </a>
+
+        <a href="https://github.com/Polaroide663/Atividade" class="icone-flutuante github" target="_blank"
+            title="Veja meu Git">
+            <i class="bi bi-github"></i>
+        </a>
+
+        <a href="https://www.instagram.com/guilherme_xiix/" class="icone-flutuante instagram" target="_blank"
+            title="Veja meu Instagram">
+            <i class="bi bi-instagram"></i>
+        </a>
+    </div>
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <footer class="footer-custom text-white d-flex justify-content-between align-items-center px-4 py-3">
+        <div>
+            <strong>Guilherme Maia</strong><br>
+            Estudante de Programação
+        </div>
+        <div class="d-flex gap-3">
+            <a href="#serv" class="footer-link">Serviço</a>
+            <a href="#port" class="footer-link">Portfólio</a>
+            <a href="#contato" class="footer-link">Contato</a>
+        </div>
+        <div>
+            © 2025 Guilherme Maia.
+        </div>
+    </footer>
+
+    <footer class="rodape-icones">
+        <a href="https://wa.me/5579998122023" target="_blank" title="WhatsApp">
+            <i class="bi bi-whatsapp"></i>
+        </a>
+        <a href="https://github.com/Polaroide663/Atividade" target="_blank" title="GitHub">
+            <i class="bi bi-github"></i>
+        </a>
+        <a href="https://www.instagram.com/guilherme_xiix/" target="_blank" title="Instagram">
+            <i class="bi bi-instagram"></i>
+        </a>
+    </footer>
+
+
+</body>
+
+
+
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+    crossorigin="anonymous"></script>
+
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone"
+    viewBox="0 0 16 16">
+    <path
+        d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.6 17.6 0 0 0 4.168 6.608 17.6 17.6 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.68.68 0 0 0-.58-.122l-2.19.547a1.75 1.75 0 0 1-1.657-.459L5.482 8.062a1.75 1.75 0 0 1-.46-1.657l.548-2.19a.68.68 0 0 0-.122-.58zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z" />
+</svg>
+
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-at"
+    viewBox="0 0 16 16">
+    <path
+        d="M2 2a2 2 0 0 0-2 2v8.01A2 2 0 0 0 2 14h5.5a.5.5 0 0 0 0-1H2a1 1 0 0 1-.966-.741l5.64-3.471L8 9.583l7-4.2V8.5a.5.5 0 0 0 1 0V4a2 2 0 0 0-2-2zm3.708 6.208L1 11.105V5.383zM1 4.217V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v.217l-7 4.2z" />
+    <path
+        d="M14.247 14.269c1.01 0 1.587-.857 1.587-2.025v-.21C15.834 10.43 14.64 9 12.52 9h-.035C10.42 9 9 10.36 9 12.432v.214C9 14.82 10.438 16 12.358 16h.044c.594 0 1.018-.074 1.237-.175v-.73c-.245.11-.673.18-1.18.18h-.044c-1.334 0-2.571-.788-2.571-2.655v-.157c0-1.657 1.058-2.724 2.64-2.724h.04c1.535 0 2.484 1.05 2.484 2.326v.118c0 .975-.324 1.39-.639 1.39-.232 0-.41-.148-.41-.42v-2.19h-.906v.569h-.03c-.084-.298-.368-.63-.954-.63-.778 0-1.259.555-1.259 1.4v.528c0 .892.49 1.434 1.26 1.434.471 0 .896-.227 1.014-.643h.043c.118.42.617.648 1.12.648m-2.453-1.588v-.227c0-.546.227-.791.573-.791.297 0 .572.192.572.708v.367c0 .573-.253.744-.564.744-.354 0-.581-.215-.581-.8Z" />
+</svg>
+
+<script src="java.js"></script>
+
+</html>
